@@ -1,0 +1,12 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/WebService/HashBlue.pm
+t/00-load.t
+t/01-message.t
+t/02-favourites.t
+t/03-contacts.t
+t/manifest.t
+t/pod.t
+META.yml                                 Module meta-data (added by MakeMaker)

@@ -1,0 +1,27 @@
+--- #YAML:1.0
+name:               WebService-HashBlue
+version:            0.01
+abstract:           Interact with Telefonica/o2's #blue service
+author:
+    - Squeeks <squeek@cpan.org>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  0
+build_requires:
+    ExtUtils::MakeMaker:  0
+requires:
+    Crypt::SSLeay:  0
+    JSON:           2
+    LWP:            0
+    perl:           5.008
+    Test::More:     0.88
+    URI:            0
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
